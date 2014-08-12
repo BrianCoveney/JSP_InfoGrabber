@@ -1,0 +1,66 @@
+/*--Brian Coveney  Student Id: R00105727........................................*/
+.fixed { visibility: hidden; display: inline-block; }
+.error { visibility: visible; color: red; display: inline-block; }
+.colorLabel {border: thin solid red;}
+.unColorLabel {border: thin solid grey;}
+
+
+
+label 
+{
+    display: inline-block;
+    width: 170px;
+    margin-top:10px;
+    margin-bottom:10px; 
+
+}
+input[type="text"] 
+{
+    display: inline-block;
+    width: 140px;
+}
+input[type="tel"] 
+{
+    display: inline-block;
+    width: 140px;
+}
+input[type="password"] 
+{
+    display: inline-block;
+    width: 140px;
+}
+
+fieldset 
+{
+    background-color:antiquewhite;
+    width: 800px;
+    margin-top:25px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-left:25px;
+}
+
+
+/*Slight discrepancy with positioning differences 
+between browsers Chrome, IE and Firefox in 'Send' & 'Clear'*/
+
+#send-left 
+{
+    margin-top:8px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-left:173px;
+}
+
+#clear-right 
+{ 
+    margin-top:-49px;
+    margin-bottom:4px;
+    margin-right:0px;
+    margin-left:246px;
+}
+
+
+
+
+
